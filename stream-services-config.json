@@ -1,0 +1,13 @@
+{
+	"deezer" : {
+		"appId": "551642",
+		"appName": "streaming-sync",
+		"secretKey" : "d308f3f26e7cfb15a6d853156bdcf109",
+		"authURL": "https://connect.deezer.com/oauth/auth.php?app_id={appId}&redirect_uri={redirectURL}&perms={perms}",
+		"redirectURL": "http://localhost:4200/deezer",
+		"perms": ["basic_access", "manage_library"]
+	},
+	"spotify" : {
+
+	}
+}
